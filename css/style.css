@@ -1,0 +1,121 @@
+body {
+    background-image:url(../img/background-image.jpg);
+    background-size: cover;
+    background-color: blanchedalmond;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: light;
+    color: rgb(133, 53, 53);
+}
+
+header {
+    padding: 40px;
+    background-color: rgba(192, 123, 83, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1:hover {
+
+    color: beige;
+}
+
+.proja-slika {
+    margin: 25px 460px;
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px double rgb(36, 30, 30);
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 90%;
+    margin-left: 28px;
+    border-radius: 20px;
+}
+
+.proja-opis {
+    padding:20px 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(124, 112, 112);
+    max-width: 1400px;
+    border-radius: 20px;
+    margin-left: 50px;
+
+}
+
+.span-proja {
+    color: rgb(145, 35, 54);
+    font-weight: bolder;
+}
+
+.sastojci {
+    padding:20px 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(124, 112, 112);
+    border-radius: 20px;
+    margin-left: 180px;
+    margin-top:60px;
+    max-width: 500px;
+    float:left;
+    margin-bottom: 25px;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+} 
+
+ol {
+list-style-type: lower-greek;
+}
+
+.steps {
+
+    padding:20px 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(124, 112, 112);
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top:60px;
+    margin-bottom: 25px;
+    max-width: 500px;
+    float:left;
+}
+
+
+.container {
+
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: rgba(211, 137, 141, 0.6);
+
+}
+
+footer {
+    padding: 25px;
+    background-color: rgba(192, 123, 83, 0.75);
+    text-align: center;
+    text-transform:lowercase;
+    clear:both;
+    margin-top: 25px;
+
+   
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h4:hover {
+    color: rgb(202, 41, 108);
+}
+
+.test {
+
+    clear:both;
+    font-size: 0.1px;
+}
