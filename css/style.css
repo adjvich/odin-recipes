@@ -20,6 +20,13 @@ h1:hover {
     color: beige;
 }
 
+.index-list {
+border-radius: 30px;
+margin-top: 10px;
+
+
+}
+
 .proja-slika {
     margin: 25px 460px;
     padding:30px;
@@ -29,13 +36,86 @@ h1:hover {
     border-radius: 20px;
 }
 
+.bajadere-slika {
+    margin: 25px 460px;
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px double rgb(36, 30, 30);
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.przenice-slika {
+    margin: 25px 460px;
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px double rgb(36, 30, 30);
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.ul-index {
+
+    line-height: 2;
+    display: inline-block; /*ne zaboravi ovo da centriras unoreded list*/
+    margin-left: 550px;
+    background-color: rgba(255, 253, 253, 0.5);
+    padding:60px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+
+    list-style-image: url(../img/index-icon.png);
+}
+
 img {
     max-width: 90%;
     margin-left: 28px;
     border-radius: 20px;
 }
 
+.przenice-img {
+
+width: fit-content;
+margin-left: 77px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: rgb(133, 53, 53);
+}
+
+a:hover {
+
+    color: blueviolet;
+}
+
 .proja-opis {
+    padding:20px 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(124, 112, 112);
+    max-width: 1400px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.bajadere-opis {
+    padding:20px 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(124, 112, 112);
+    max-width: 1400px;
+    border-radius: 20px;
+    margin-left: 50px;
+
+}
+
+.przenice-opis {
     padding:20px 30px;
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid rgb(124, 112, 112);
@@ -50,6 +130,16 @@ img {
     font-weight: bolder;
 }
 
+.span-bajadere {
+    color: rgb(145, 35, 54);
+    font-weight: bolder;
+}
+
+.span-przenice {
+    color: rgb(145, 35, 54);
+    font-weight: bolder;
+}
+
 .sastojci {
     padding:20px 30px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -60,6 +150,10 @@ img {
     max-width: 500px;
     float:left;
     margin-bottom: 25px;
+}
+
+.naslov-glazura {
+    font-weight: bold;
 }
 
 h4 {
@@ -101,6 +195,7 @@ footer {
     text-transform:lowercase;
     clear:both;
     margin-top: 25px;
+    text-decoration: none;
 
    
 }
@@ -108,6 +203,7 @@ footer {
 h4 {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 h4:hover {
@@ -118,4 +214,14 @@ h4:hover {
 
     clear:both;
     font-size: 0.1px;
+}
+
+.footer-recept {
+    font-weight: bold;
+    font-size: 30px;
+    text-transform:none;
+}
+
+.back-footer:hover {
+    color:beige;
 }
